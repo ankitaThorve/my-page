@@ -14,6 +14,10 @@ body {
   color: #e0e0e0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 header {
   margin-bottom: 40px;
   padding: 40px 0;
