@@ -59,9 +59,21 @@ footer {
   font-size: 0.9rem;
 }
 
-#theme-toggle:hover{
+#theme-toggle:hover {
   background-color: #a78bfa;
   color: #0f0f0f;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+body.light-mode h1 {
+  color: #111;
+}
+body.light-mode h2 {
+  color: #7c3aed;
 }
 
 @media (max-width: 600px) {
